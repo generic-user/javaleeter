@@ -110,7 +110,7 @@ function javaleeter(str_text, maxlevel, weight) {
 		//Calculate weight
 		counterWeight = Math.random();
 
-		//If is is a letter from the alfabet (alfabethNumber != -1)
+		//If is is a letter from the alfabet (alfabethNumber != -1) and the counter weight is smaller then te weight
 		if (alfabethNumber != -1 && counterWeight < weight) {
 
 			var topLimit = replacement[alfabethNumber].length - 1;
