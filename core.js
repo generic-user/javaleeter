@@ -92,7 +92,7 @@ function javaleeter(str_text, maxlevel, weight) {
 	maxlevel = Math.floor(maxlevel);
 
 	//if number is lower than 2 we make it 2 ourselfs
-	if (maxlevel > 2) maxlevel = 2;
+	if (maxlevel < 2) maxlevel = 2;
 
 	//if a bad weight value has been supplyed, use default value
 	if (weight < 0 || weight > 1) weight = 0.6;
