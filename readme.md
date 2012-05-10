@@ -11,6 +11,12 @@ http://nl.wikipedia.org/wiki/Leet
 
 for best results pleas use charset utf 8.
 
+###Usage:
+
+The class is build so it could easely be inplemented, in any way. It has no dependencys.
+
+For an example of the usage, see https://github.com/BattoorCjorn/javaleeter/blob/master/test.html.
+
 Licence:
 --------
 
