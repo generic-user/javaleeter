@@ -11,6 +11,8 @@ http://nl.wikipedia.org/wiki/Leet
 
 for best results pleas use charset utf 8.
 
+The code has been verified jshint
+
 ###Usage:
 
 The class is build so it could easely be inplemented, in any way. It has no dependencys.
