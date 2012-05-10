@@ -1,0 +1,39 @@
+body{
+	background-color: #000000;
+	border-left: 120px solid #400000 ;
+	border-right: 120px solid #400000 ;
+	padding: 50px;
+}
+
+textarea{
+	width: 100%;
+	margin-top: 20px;
+	color: #0000FF;
+	background-color:#C0C0C0;
+	border-radius: 25px;
+	padding: 20px 10px 40px 10px;
+	height: 200px;
+}
+
+p{
+	font-family: consolas;
+	color: #00FF00;
+	background-color:#000000;
+	border-radius: 25px;
+	border: 1px solid #999;
+	padding: 20px 10px 40px 10px;
+}
+
+input, button{
+	color: #FF0000;
+    border: 1px solid #008000;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button:hover{
+	background: #C0C0C0;
+	border-width: 2px
+};
+

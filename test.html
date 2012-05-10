@@ -2,21 +2,25 @@
 <head>
 	<title>Tesing the java leeter</title>
 	<script type="text/javascript" src="core.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="test.css" />
 	<meta charset="utf8">
 	<script type="text/javascript">
-		function onClick () {
-			document.getElementById('leetblock').innerText =  javaleeter(document.getElementById('trunk').value,document.getElementById('level').value,document.getElementById('weight').value) ;
+		function onClick() {
+			try {
+				document.getElementById('leetblock').innerText = javaleeter(document.getElementById('trunk').value, document.getElementById('level').value, document.getElementById('weight').value);
+			} catch (ex) {
+				document.getElementById('leetblock').innerText = ex;
+			}
+
 		}
 	</script>
 </head>
 <body>
-	<textarea id="trunk">Leet (or "1337"), also known as eleet or leetspeak, is an alternative alphabet for the English language that is used primarily on the Internet. It uses various combinations of ASCII characters to replace Latinate letters. For example, leet spellings of the word leet include 1337 and l33t; eleet may be spelled 31337 or 3l33t.
-The term leet is derived from the word elite. The leet alphabet is a specialized form of symbolic writing. Leet may also be considered a substitution cipher, although many dialects or linguistic varieties exist in different online communities. The term leet is also used as an adjective to describe formidable prowess or accomplishment, especially in the fields of online gaming and in its original usage, computer hacking.</textarea>
+	<textarea id="trunk">This wil get leeted!</textarea>
 </br>
-	<p id="leetblock">Leet (or "1337"), also known as eleet or leetspeak, is an alternative alphabet for the English language that is used primarily on the Internet. It uses various combinations of ASCII characters to replace Latinate letters. For example, leet spellings of the word leet include 1337 and l33t; eleet may be spelled 31337 or 3l33t.
-The term leet is derived from the word elite. The leet alphabet is a specialized form of symbolic writing. Leet may also be considered a substitution cipher, although many dialects or linguistic varieties exist in different online communities. The term leet is also used as an adjective to describe formidable prowess or accomplishment, especially in the fields of online gaming and in its original usage, computer hacking.</p>
-	 weight: <input type="text" id="weight">
-	 level: <input type="text" id="level">
-	<button onclick="onClick()" >leet</button>
+	<p id="leetblock"></p>
+	 weight: <input type="text" id="weight" value=".4">
+	 level: <input type="text" id="level" value="5">
+	<button onclick="onClick()" >Press here to leet!</button>
 </body>
 </html>
