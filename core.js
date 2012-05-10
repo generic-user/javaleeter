@@ -78,15 +78,15 @@ var alfabethaIndex = new Array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
 
 function javaleeter(str_text, maxlevel, weight) {
 	//Input test, level should always higher than 2
-	if (maxlevel == undefined) throw "leet_replace encoutered a bad argument: maxlevel is undefined.";
+	if (maxlevel == undefined) throw "javaleeter encoutered a bad argument: maxlevel is undefined.";
 
-	if (weight == undefined) throw "leet_replace encoutered a bad argument: weight is undefined.";
+	if (weight == undefined) throw "javaleeter encoutered a bad argument: weight is undefined.";
 
-	if (str_text == undefined) throw "leet_replace encoutered a bad argument: str_text is undefined.";
+	if (str_text == undefined) throw "javaleeter encoutered a bad argument: str_text is undefined.";
 
-	if (!javaleeterIsNumber(maxlevel)) throw "leet_replace encoutered a bad argument: maxlevel should be an number.";
+	if (!javaleeterIsNumber(maxlevel)) throw "javaleeter encoutered a bad argument: maxlevel should be an number.";
 
-	if (!javaleeterIsNumber(weight)) throw "leet_replace encoutered a bad argument: weight should be an number.";
+	if (!javaleeterIsNumber(weight)) throw "javaleeter encoutered a bad argument: weight should be an number.";
 
 	//If number is no integer we need to make it an integer.
 	maxlevel = Math.floor(maxlevel);
