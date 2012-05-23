@@ -77,12 +77,16 @@ new Array("z", "Z", "2", "7_", "-/_", "%", ">_", "s", "~/_", "-\\_", "-|_"));
 
 var alfabethaIndex = new Array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p,', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
 
-function javaleeter(str_text, maxlevel, weight) {
+function javaleeter(str_text, maxlevel, weight, replaceChrLfByBrTag) {
     "use strict";
     //Declare the needed variables
     var index, convertedText, alfabethNumber, counterWeight, topLimit, dice, selected;
 
     //Input test, level should always higher than 2
+    if (replaceChrLfByBrTag === undefined) {
+        replaceChrLfByBrTag = false;
+    }
+    
     if (maxlevel === undefined) {
         throw "javaleeter encoutered a bad argument: maxlevel is undefined.";
     }
@@ -155,7 +159,14 @@ function javaleeter(str_text, maxlevel, weight) {
         }
 
     }
-    return convertedText;
+    if (!replaceChrLfByBrTag){
+		return convertedText;
+	}
+    else{
+		//aded this line to support print to html.
+		return convertedText.replace(/\n/g, '</br>');
+	}
+    
 }
 
 function javaleeterIsNumber(n) {
