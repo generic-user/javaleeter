@@ -164,7 +164,7 @@ function javaleeter(str_text, maxlevel, weight, replaceChrLfByBrTag) {
 	}
     else{
 		//aded this line to support print to html.
-		return convertedText.replace(/\n/g, '</br>');
+		return convertedText.replace(/\s+$/gm, '</br>');
 	}
     
 }

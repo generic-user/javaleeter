@@ -7,9 +7,9 @@
 	<script type="text/javascript">
 		function onClick() {
 			try {
-				document.getElementById('leetblock').innerText = javaleeter(document.getElementById('trunk').value, document.getElementById('level').value, document.getElementById('weight').value);
+				document.getElementById('leetblock').innerHTML = javaleeter(document.getElementById('trunk').value, document.getElementById('level').value, document.getElementById('weight').value,true);
 			} catch (ex) {
-				document.getElementById('leetblock').innerText = ex;
+				document.getElementById('leetblock').innerHTML = ex;
 			}
 
 		}
