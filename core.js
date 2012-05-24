@@ -82,11 +82,6 @@ function javaleeter(str_text, maxlevel, weight) {
     //Declare the needed variables
     var index, convertedText, alfabethNumber, counterWeight, topLimit, dice, selected;
 
-    //Input test, level should always higher than 2
-    if (replaceChrLfByBrTag === undefined) {
-        replaceChrLfByBrTag = false;
-    }
-    
     if (maxlevel === undefined) {
         throw "javaleeter encoutered a bad argument: maxlevel is undefined.";
     }
