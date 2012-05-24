@@ -77,7 +77,7 @@ new Array("z", "Z", "2", "7_", "-/_", "%", ">_", "s", "~/_", "-\\_", "-|_"));
 
 var alfabethaIndex = new Array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p,', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
 
-function javaleeter(str_text, maxlevel, weight, replaceChrLfByBrTag) {
+function javaleeter(str_text, maxlevel, weight) {
     "use strict";
     //Declare the needed variables
     var index, convertedText, alfabethNumber, counterWeight, topLimit, dice, selected;
@@ -159,13 +159,7 @@ function javaleeter(str_text, maxlevel, weight, replaceChrLfByBrTag) {
         }
 
     }
-    if (!replaceChrLfByBrTag){
 		return convertedText;
-	}
-    else{
-		//aded this line to support print to html.
-		return convertedText.replace(/\s+$/gm, '</br>');
-	}
     
 }
 
