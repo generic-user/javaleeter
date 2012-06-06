@@ -7,7 +7,7 @@
 	<script type="text/javascript">
 		function onClick() {
 			try {
-				document.getElementById('leetblock').innerHTML = javaleeter(document.getElementById('trunk').value, document.getElementById('level').value, document.getElementById('weight').value,true);
+				document.getElementById('leetblock').innerHTML = javaleeter(document.getElementById('trunk').value, document.getElementById('level').value, document.getElementById('weight').value);
 			} catch (ex) {
 				document.getElementById('leetblock').innerHTML = ex;
 			}
@@ -18,7 +18,7 @@
 <body>
 	<textarea id="trunk">This wil get leeted!</textarea>
 </br>
-	<p id="leetblock"></p>
+	<textarea id="leetblock"></textarea>
 	 weight: <input type="text" id="weight" value=".4">
 	 level: <input type="text" id="level" value="5">
 	<button onclick="onClick()" >Press here to leet!</button>

@@ -82,7 +82,10 @@ function javaleeter(str_text, maxlevel, weight) {
     //Declare the needed variables
     var index, convertedText, alfabethNumber, counterWeight, topLimit, dice, selected;
 
+<<<<<<< HEAD
     
+=======
+>>>>>>> origin/master
     if (maxlevel === undefined) {
         throw "javaleeter encoutered a bad argument: maxlevel is undefined.";
     }
@@ -156,7 +159,11 @@ function javaleeter(str_text, maxlevel, weight) {
 
     }
 		return convertedText;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> origin/master
 }
 
 function javaleeterIsNumber(n) {
