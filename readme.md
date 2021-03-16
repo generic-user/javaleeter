@@ -6,7 +6,7 @@ __StartDate:__ 08/05/2012
 __Contact:__ orhiannono@gmail.com
 __Version:__ 0.1
 
-##This project uses the translation table found at:
+## This project uses the translation table found at:
 
 http://nl.wikipedia.org/wiki/Leet
 
@@ -14,7 +14,7 @@ for best results pleas use charset utf 8.
 
 The code has been verified jshint
 
-##changelog:
+## changelog:
 
 v0.1
 - first launch
@@ -22,7 +22,7 @@ v0.1
 v0.2
 -added feature to get /n/r as </br> tags for html output
 
-###Usage:
+### Usage:
 
 The class is build so it could easely be inplemented, in any way. It has no dependencys.
 
