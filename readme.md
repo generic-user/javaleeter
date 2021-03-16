@@ -18,7 +18,7 @@ v0.1
 - first launch
 
 v0.2
--added feature to get /n/r as </br> tags for html output
+- added feature to get /n/r as </br> tags for html output
 
 ### Usage:
 
