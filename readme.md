@@ -2,7 +2,7 @@ The javaleeter project.
 -----------------------
 
 __Status:__ archived
-__Version:__ 0.1
+__Version:__ 0.2
 
 ## This project uses the translation table found at:
 
