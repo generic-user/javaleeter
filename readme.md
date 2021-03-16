@@ -1,9 +1,6 @@
 The javaleeter project.
 -----------------------
 
-__Author:__ Cattoor bjorn
-__StartDate:__ 08/05/2012
-__Contact:__ orhiannono@gmail.com
 __Version:__ 0.1
 
 ## This project uses the translation table found at:
