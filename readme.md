@@ -1,6 +1,7 @@
 The javaleeter project.
 -----------------------
 
+__Status:__ archived
 __Version:__ 0.1
 
 ## This project uses the translation table found at:
@@ -23,7 +24,7 @@ v0.2
 
 The class is build so it could easely be inplemented, in any way. It has no dependencys.
 
-For an example of the usage, see https://github.com/BattoorCjorn/javaleeter/blob/master/test.html.
+For an example of the usage, see [here](https://github.com/BattoorCjorn/javaleeter/blob/master/test.html) for an example.
 
 Licence:
 --------
