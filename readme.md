@@ -24,4 +24,4 @@ v0.2
 
 The class is build so it could easely be inplemented, in any way. It has no dependencys.
 
-For an example of the usage, see [here](https://github.com/BattoorCjorn/javaleeter/blob/master/test.html) for an example.
+For an example of the usage, see [this fiddle](https://jsfiddle.net/z9032x8n/) for an example.
