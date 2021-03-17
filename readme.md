@@ -10,8 +10,6 @@ http://nl.wikipedia.org/wiki/Leet
 
 for best results pleas use charset utf 8.
 
-The code has been verified jshint
-
 ## changelog:
 
 v0.1
